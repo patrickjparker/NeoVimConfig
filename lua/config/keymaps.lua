@@ -5,5 +5,5 @@
 -- We remap window split to match tmux
 vim.keymap.del("n", "<leader>|")
 vim.keymap.del("n", "<leader>-")
-vim.keymap.set("n", "<leader>%", "<C-w>v")
-vim.keymap.set("n", '<leader>"', "<C-w>s")
+vim.keymap.set("n", "<leader>%", "<C-w>v", { desc = "Split Vertially" })
+vim.keymap.set("n", '<leader>"', "<C-w>s", { desc = "Split Horizonally" })

@@ -1,9 +1,9 @@
-- hot key for clearing out the highlighting for the last search (:noh)
 - Make it so flash doesn't cause all the text to go dark. Or at least make it so the text is more readable. Probably want to turn off the text change for `f`
 - I hate how enter accepts the first suggested option. If anything does, it should be tab
 - Make text wrap and undo mapping j to gj and k to gk
 - 'H' and 'L' and mapped to next/previous buffer in normal mode. Not super useful without the buffer tabs but I don't think I want to bring those back. Maybe the ideal would be to get harpoon and map those to the next/previous harpoon pages. (in normal vim 'H' moves cursor to top of page and 'L' moves cursor to bottom of page... I don't really feel like I need those specifically)
 - <c-s>for save feels awkward
+- Add icons to new mappings
 
 
 ### Future
